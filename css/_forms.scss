@@ -1,0 +1,34 @@
+@mixin btn {
+	display: inline-block;
+	background: #000;
+	color: #fff;
+	text-decoration: none;
+	font-size: 14px;
+	border: 0;
+
+	padding: {
+		top: 6px;
+		bottom: 2px;
+		left: 7px;
+		right: 7px;
+	}
+
+	&:hover {
+		color: #ddd;
+	}
+}
+
+.btn, input[type=submit] {
+	@include btn;
+}
+.btn-light {
+	background: #fff;
+	color: #000;
+
+	&:hover {
+		color: #555;
+	}
+}
+.btn-line {
+	margin-right: 5px;
+}

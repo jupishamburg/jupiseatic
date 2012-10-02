@@ -1,0 +1,30 @@
+@font-face {
+	src:			url('../fonts/OpenSans/OpenSans-Regular-webfont.eot');
+	src:			url('../fonts/OpenSans/OpenSans-Regular-webfont.eot?#iefix')			format('embedded-opentype'),
+					url('../fonts/OpenSans/OpenSans-Regular-webfont.woff')					format('woff'),
+					url('../fonts/OpenSans/OpenSans-Regular-webfont.ttf')					format('truetype'),
+					url('../fonts/OpenSans/OpenSans-Regular-webfont.svg#OpenSansRegular')	format('svg');
+	font-family:	'Open Sans';
+	font-weight:	400;
+	font-style:		normal;
+}
+@font-face {
+	src:			url('../fonts/OpenSans/OpenSans-Light-webfont.eot');
+	src:			url('../fonts/OpenSans/OpenSans-Light-webfont.eot?#iefix')				format('embedded-opentype'),
+					url('../fonts/OpenSans/OpenSans-Light-webfont.woff')					format('woff'),
+					url('../fonts/OpenSans/OpenSans-Light-webfont.ttf')					format('truetype'),
+					url('../fonts/OpenSans/OpenSans-Light-webfont.svg#OpenSansRegular')	format('svg');
+	font-family:	'Open Sans';
+	font-weight:	300;
+	font-style:		normal;
+}
+@font-face {
+	src:			url('../fonts/OpenSans/OpenSans-Bold-webfont.eot');
+	src:			url('../fonts/OpenSans/OpenSans-Bold-webfont.eot?#iefix')			format('embedded-opentype'),
+					url('../fonts/OpenSans/OpenSans-Bold-webfont.woff')				format('woff'),
+					url('../fonts/OpenSans/OpenSans-Bold-webfont.ttf')					format('truetype'),
+					url('../fonts/OpenSans/OpenSans-Bold-webfont.svg#OpenSansRegular')	format('svg');
+	font-family:	'Open Sans';
+	font-weight:	700;
+	font-style:		normal;
+}

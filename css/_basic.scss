@@ -1,0 +1,44 @@
+$pagebackground: #FF8800; /* #ffa800 */
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+html {
+	background: $pagebackground;
+	min-width: 900px;
+}
+body {
+	font: {
+		family: 'PT Sans', sans-serif;
+	}
+}
+.clear {
+	clear: both;
+}
+.content {
+	position: relative;
+	width: 900px;
+	margin: auto;
+}
+
+.left {
+	float: left;
+}
+.right {
+	float: right;
+}
+
+a {
+	color: #046D8B;
+	text-decoration: none;
+
+	&:hover {
+		color: #0c5063;
+	}
+	&:active {
+		color: #000;
+	}
+}

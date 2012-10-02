@@ -1,0 +1,47 @@
+body > footer {
+	background: #000;
+	overflow: hidden;
+
+	padding: {
+		top: 30px;
+		bottom: 20px;
+	}
+
+	aside {
+		float: left;
+		margin-right: 35px;
+
+		h4 {
+			color: #FF8800 !important;
+			font: {
+				weight: 300;
+				size: 20px;
+			}
+			margin-bottom: 7px;
+		}
+		hr {
+			height: 1px;
+			border: 0;
+			background: #fff;
+			margin: {
+				top: 7px;
+				bottom: 10px;
+			}
+		}
+
+		ul {
+			margin-left: 10px;
+
+			li > a {
+				$color: #ddd;
+
+				color: $color;
+				text-decoration: none;
+
+				&:hover {
+					text-decoration: underline;
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,19 @@
+	<section id="sidebar-wrapper">
+		<aside>
+			<article class="social-icons">
+				<h3>Sozial, Info & Kontakt</h3>
+				<ul>
+					<li id="twitter"><a href="https://twitter.com/JuPisHamburg"><i class="icon-twitter"></i></a></li>
+					<li id="facebook"><a href="https://www.facebook.com/jupishamburg"><i class="icon-facebook"></i></a></li>
+					<li><a href="https://wiki.junge-piraten.de/wiki/HH:Hauptseite"><i class="icon-info-sign"></i></a></li>
+					<li><a href="mailto:info@hamburg.junge-piraten.de"><i class="icon-envelope-alt"></i></a></li>
+				</ul>
+			</article>
+
+			<?php dynamic_sidebar(); ?>
+		</aside>
+	</section>
+</div>
+<div class="clear"></div>
+
+<?php get_footer(); ?>

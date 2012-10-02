@@ -1,0 +1,71 @@
+@mixin border-heading {
+	color: #000;
+	padding-left: 9px;
+	border-left: 6px #046D8B solid;
+}
+
+#page-wrapper {
+	width: 77%;
+	float: left;
+
+	article {
+		background: #fff;
+		margin-bottom: 20px;
+
+		padding: {
+			left: 15px;
+			right: 15px;
+			bottom: 14px;
+			top: 12px;
+		}
+
+		&.single > header > h2 > a {
+			@include border-heading;
+		}
+
+		header {
+			h2 {
+				margin: {
+					left: -15px;
+					top: 0;
+					bottom: 7px;
+				}
+				padding: 0;
+
+				a {
+					display: block;
+					color: #046D8B;
+					padding: {
+						left: 15px;
+						top: 3px;
+					}
+					text: {
+						decoration: none;
+					}
+					font: {
+						family: 'Bebas Neue', sans-serif;
+						size: 24px;
+						weight: normal;
+					}
+
+					&:hover {
+						@include border-heading;
+					}
+				}
+			}
+			small {
+				display: block;
+				color: #aaa;
+				font-size: 12px;
+				margin: {
+					bottom: 5px;
+					left: 15px;
+				}
+			}
+		}
+		.page-content p {
+			font-size: 14px;
+			margin-bottom: 15px;
+		}
+	}
+}

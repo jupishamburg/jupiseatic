@@ -1,0 +1,148 @@
+#sidebar-wrapper {
+	margin-left: 80%;
+
+	article {
+		background: #fff;
+		overflow: hidden;
+		margin-bottom: 20px;
+		font-size: 14px;
+
+		a.presenter {
+			display: block;
+			line-height: 0;
+		}
+
+		img {
+			max-width: 100%;
+		}
+
+		h3 {
+			font: {
+				family: 'Bebas Neue', sans-serif;
+				size: 20px;
+				weight: normal;
+			}
+			background: #000;
+			color: #fff;
+			padding: 7px;
+			padding-bottom: 5px;
+			a {
+				display: block;
+				text-decoration: none;
+				cursor: default;
+				color: #fff;
+			}
+		}
+
+		ul {
+			margin: 0;
+			padding: 3px;
+			list-style: none;
+
+			li {
+				margin-bottom: 1px;
+				padding: {
+					left: 7px;
+					top: 5px;
+					right: 7px;
+				}
+
+				abbr {
+					display: block;
+					color: #666;
+					border: 0;
+					font-size: 11px;
+				}
+
+				&:nth-child(odd) {
+					background: #fff;
+				}
+				&:nth-child(even) {
+					background: #efefef;
+				}
+			}
+		}
+
+		&.social-icons {
+			ul {
+				padding: 0;
+
+				li {
+					float: left;
+					padding: 0;
+					margin: 0;
+					background: none !important;
+
+					&:hover {
+						background: #bebebe !important;
+					}
+					&#twitter:hover {
+						background: #00aced !important;
+						a {
+							color: #fff;
+						}
+					}
+					&#facebook:hover {
+						background: #3b5998 !important;
+						a {
+							color: #fff;
+						}
+					}
+					a {
+						line-height: 34px;
+						display: block;
+						color: #000;
+						text-decoration: none;
+						font-size: 22px;
+						padding: {
+							top: 7px;
+							left: 8px;
+							right: 8px;
+							bottom: 0;
+						}
+					}
+				}
+			}
+		}
+		.calendar {
+
+			a {
+				color: #000;
+				text-decoration: none;
+				display: block;
+			}
+
+			li:first-child {
+				h4, footer {
+					text-align: center;
+				}
+				h4 {
+					background: #aaa;
+					font: {
+						weight: 300;
+						size: 17px;
+					}
+					padding: 7px;
+					padding-bottom: 3px;
+					margin-top: -8px;
+				}
+				h5 {
+					background: #000;
+					color: #fff;
+					display: inline-block;
+					padding: 7px;
+					padding-bottom: 1px;
+					margin: {
+						bottom: 15px;
+						left: -10px;
+						top: 10px;
+					}
+					font: {
+						weight: 300;
+						size: 13px;
+					}
+				}
+			}
+		}
+	}
+}

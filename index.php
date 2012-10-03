@@ -6,9 +6,7 @@
 			<article id="post-<?php the_ID(); ?>" <?php if(!is_single() && !is_page()) post_class(); else post_class('single') ?>>
 				<header>
 					<h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
-					<?php if(!is_page()): ?>
-						<small><?php the_date('d. m. Y'); ?></small>
-					<?php endif; ?>
+					<small><?php the_date('d. m. Y'); ?></small>
 				</header>
 				<div class="page-content">
 					<?php the_content(); ?>

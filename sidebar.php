@@ -10,7 +10,7 @@
 				</ul>
 			</article>
 
-			<?php dynamic_sidebar(); ?>
+			<?php dynamic_sidebar('sidebar-0'); ?>
 		</aside>
 	</section>
 </div>

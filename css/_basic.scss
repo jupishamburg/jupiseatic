@@ -15,6 +15,14 @@ body {
 		family: 'PT Sans', sans-serif;
 	}
 }
+hr {
+	border: 0;
+	border-top: 1px #000 solid;
+	margin: {
+		bottom: 12px;
+		top: -5px;
+	}
+}
 .clear {
 	clear: both;
 }

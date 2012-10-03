@@ -41,6 +41,9 @@ body > footer {
 				&:hover {
 					text-decoration: underline;
 				}
+				&:active {
+					color: #0f343f;
+				}
 			}
 		}
 	}

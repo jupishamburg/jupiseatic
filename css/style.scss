@@ -1,4 +1,5 @@
 @import "normalize";
+@import "wordpress";
 @import "basic";
 
 @import "layout/header";
@@ -15,4 +16,4 @@
 
 @import "forms";
 @import "comments";
-@import "gcalevents";
+@import "calendar";

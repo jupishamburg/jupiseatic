@@ -13,7 +13,14 @@
 					<a href="<?php echo site_url("/"); ?>" title="<?php bloginfo('name') ?>">
 						<img src="<?php bloginfo('template_directory'); ?>/img/signet.png" alt="<?php bloginfo('name') ?>" />
 					</a>
-					<div id="title">Junge <span id="highlight">Piraten</span> Hamburg</div>
+					<div id="title">
+						<?php 
+							$name = explode(" ", get_bloginfo('name'));
+							echo $name[0];
+							echo " <span id=\"highlight\">{$name[1]}</span> ";
+							bloginfo('description');
+						?>
+					</div>
 					<div class="clear"></div>
 				</h1>
 				<?php

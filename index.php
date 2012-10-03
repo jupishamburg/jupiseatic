@@ -9,7 +9,13 @@
 					<small><?php the_date('d. m. Y'); ?></small>
 				</header>
 				<div class="page-content">
-					<?php the_content(); ?>
+					<?php 
+						if(!is_single() && !is_page()) {
+							the_excerpt();
+						} else {
+							the_content();
+						}
+					?>
 
 					<div class="left">
 						<?php

@@ -1,7 +1,6 @@
 <?php
 	// Register the menus
 	add_action('init', 'register_menus');
-
 	function register_menus() {
 		register_nav_menus(
 			array(
@@ -28,5 +27,11 @@
 			'before_title' => '<h4>',
 			'after_title' => '</h4>'
 		));
+	}
+
+	// Read more on exceprts
+	add_filter('excerpt_more', 'new_excerpt_more');
+	function new_excerpt_more($more) {
+		return ' <a href="'. get_permalink($post->ID) . '">[…]</a>';
 	}
 ?>

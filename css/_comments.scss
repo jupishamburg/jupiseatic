@@ -15,7 +15,8 @@
 			bottom: 2px;
 		}
 		max-width: 400px;
-		background: $pagebackground;
+		background: #000;
+		color: #fff;
 	}
 
 	.commentlist {
@@ -31,6 +32,12 @@
 			top: 0;
 			right: 0;
 		}
+		.comment-edit-link {
+			@include btn;
+			position: absolute;
+			top: 0;
+			right: 55px;
+		}
 
 		.comment-author * {
 			font: {
@@ -38,7 +45,7 @@
 				size: 12px;
 			}
 		}
-		.comment-meta a {
+		.comment-meta > a:not(.comment-edit-link) {
 			display: block;
 			font-size: 9px;
 			color: #666;
@@ -64,8 +71,10 @@
 		}
 
 		.children {
+			padding: 5px;
+			padding-bottom: 0;
 			margin-left: 42px;
-			background: #efefef;
+			background: #e6e6e6;
 
 			li {
 				list-style: none;

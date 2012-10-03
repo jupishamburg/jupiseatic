@@ -104,45 +104,5 @@
 				}
 			}
 		}
-		.calendar {
-
-			a {
-				color: #000;
-				text-decoration: none;
-				display: block;
-			}
-
-			li:first-child {
-				h4, footer {
-					text-align: center;
-				}
-				h4 {
-					background: #aaa;
-					font: {
-						weight: 300;
-						size: 17px;
-					}
-					padding: 7px;
-					padding-bottom: 3px;
-					margin-top: -8px;
-				}
-				h5 {
-					background: #000;
-					color: #fff;
-					display: inline-block;
-					padding: 7px;
-					padding-bottom: 1px;
-					margin: {
-						bottom: 15px;
-						left: -10px;
-						top: 10px;
-					}
-					font: {
-						weight: 300;
-						size: 13px;
-					}
-				}
-			}
-		}
 	}
 }

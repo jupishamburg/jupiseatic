@@ -22,11 +22,11 @@
 	@include btn;
 }
 .btn-light {
-	background: #fff;
-	color: #000;
+	background: #fff !important;
+	color: #000 !important;
 
 	&:hover {
-		color: #555;
+		color: #555 !important;
 	}
 }
 .btn-line {

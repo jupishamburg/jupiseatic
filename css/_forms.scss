@@ -1,9 +1,9 @@
 @mixin btn {
 	display: inline-block;
 	background: #000;
-	color: #fff;
+	color: #fff !important;
 	text-decoration: none;
-	font-size: 14px;
+	font-size: 14px !important;
 	border: 0;
 
 	padding: {
@@ -14,7 +14,7 @@
 	}
 
 	&:hover {
-		color: #ddd;
+		color: #ddd !important;
 	}
 }
 

@@ -29,7 +29,7 @@
 							$tags = get_the_tags();
 							if($tags) {
 								foreach($tags as $tag) {
-									echo '<a href="' . get_category_link($tag->term_id) . '" class="btn btn-line" title="' . esc_attr(sprintf( __("View all posts tagged with %s"), $tag->name)) . '">' . $tag->name . '</a>';
+									echo '<a href="' . get_tag_link($tag->term_id) . '" class="btn btn-line" title="' . esc_attr(sprintf( __("View all posts tagged with %s"), $tag->name)) . '">' . $tag->name . '</a>';
 								}
 							}
 						?>

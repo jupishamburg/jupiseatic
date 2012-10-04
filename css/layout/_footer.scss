@@ -1,23 +1,28 @@
 body > footer {
-	background: #000;
+	background: $footerbackground;
+	background-color: $footerbackground-color;
 	overflow: hidden;
 
 	padding: {
-		top: 30px;
+		top: 20px;
 		bottom: 20px;
 	}
 
 	aside {
 		float: left;
 		margin-right: 35px;
+		max-width: 28%;
 
 		h4 {
 			color: #FF8800 !important;
 			font: {
-				weight: 300;
-				size: 20px;
+				/*weight: 300;*/
+				size: 23px;
+				family: 'Bebas Neue', sans-serif;
+				weight: normal;
 			}
-			margin-bottom: 7px;
+			letter-spacing: .8px;
+			margin-bottom: 10px;
 		}
 		hr {
 			height: 1px;
@@ -31,19 +36,26 @@ body > footer {
 
 		ul {
 			margin-left: 10px;
+			list-style: none;
+			li {
+				float: left;
+			}
 
 			li > a {
 				$color: #ddd;
+				display: inline-block;
 
-				color: $color;
+				color: #fff;
 				text-decoration: none;
-
-				&:hover {
-					text-decoration: underline;
+				background: #000;
+				font-size: 11px;
+				padding: {
+					top: 4px;
+					left: 5px;
+					right: 5px;
 				}
-				&:active {
-					color: #0f343f;
-				}
+				margin-right: 4px;
+				margin-bottom: 3px;
 			}
 		}
 	}

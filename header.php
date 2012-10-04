@@ -48,7 +48,7 @@
 				<div class="breakers">
 					<a class="breaker" href="">
 						<span>Werde</span>
-						<span>JUPI!</span>
+						<span>Jupi!</span>
 					</a>
 				</div>
 			</div>

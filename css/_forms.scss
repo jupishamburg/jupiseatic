@@ -14,7 +14,10 @@
 	}
 
 	&:hover {
-		color: #ddd !important;
+		color: $ahover !important;
+	}
+	&:active {
+		color: $aactive !important;
 	}
 }
 
@@ -24,10 +27,6 @@
 .btn-light {
 	background: #fff !important;
 	color: #000 !important;
-
-	&:hover {
-		color: #555 !important;
-	}
 }
 .btn-line {
 	margin-right: 5px;

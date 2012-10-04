@@ -57,10 +57,10 @@
 
 		<div class="clear"></div>
 		<div class="left" style="margin-bottom:20px;">
-			<?php previous_posts_link('<span class="btn btn-light">vorherige Seite</span>'); ?>
+			<?php previous_posts_link('<span class="btn btn-light"><i class="icon-caret-left"></i> vorherige Seite</span>'); ?>
 		</div>
 		<div class="right" style="margin-bottom:20px;">
-			<?php next_posts_link('<span class="btn btn-light">nächste Seite</span>'); ?>
+			<?php next_posts_link('<span class="btn btn-light">nächste Seite <i class="icon-caret-right"></i></span>'); ?>
 		</div>
 	</section>
 

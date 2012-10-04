@@ -4,6 +4,7 @@
 		<title><?php wp_title('—', true, 'right'); bloginfo('name'); ?></title>
 		<link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/css/style.css" />
 		<meta charset="utf-8" />
+		<script type="text/javascript" src="<?php bloginfo('template_directory'); ?>/js/html5.js"></script>
 		<?php wp_head(); ?>
 	</head>
 	<body>

@@ -46,7 +46,7 @@
 				</aside>
 
 				<div class="breakers">
-					<a class="breaker" href="">
+					<a class="breaker" href="https://anmelden.junge-piraten.de/">
 						<span>Werde</span>
 						<span>Jupi!</span>
 					</a>

@@ -15,7 +15,7 @@
 		padding: {
 			left: 15px;
 			right: 15px;
-			bottom: 14px;
+			bottom: 9px;
 			top: 12px;
 		}
 
@@ -33,11 +33,13 @@
 				padding: 0;
 
 				a {
-					display: block;
-					color: #046D8B;
+					display: inline-block;
+					color: #ff8800;
+					background: #000;
 					padding: {
 						left: 15px;
 						top: 3px;
+						right: 7px;
 					}
 					text: {
 						decoration: none;
@@ -50,6 +52,7 @@
 
 					&:hover {
 						@include border-heading;
+						color: #046D8B;
 					}
 				}
 			}
@@ -66,6 +69,13 @@
 		.page-content p {
 			font-size: 14px;
 			margin-bottom: 15px;
+		}
+
+		.tags {
+			max-width: 75%;
+		}
+		.btn {
+			margin-bottom: 5px;
 		}
 	}
 }

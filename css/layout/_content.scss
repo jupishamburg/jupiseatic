@@ -1,5 +1,4 @@
 @mixin border-heading {
-	color: #000;
 	padding-left: 9px;
 	border-left: 6px #046D8B solid;
 }
@@ -34,7 +33,6 @@
 
 				a {
 					display: inline-block;
-					color: #ff8800;
 					background: #000;
 					padding: {
 						left: 15px;
@@ -49,10 +47,10 @@
 						size: 24px;
 						weight: normal;
 					}
+					letter-spacing: .8px;
 
 					&:hover {
 						@include border-heading;
-						color: #046D8B;
 					}
 				}
 			}

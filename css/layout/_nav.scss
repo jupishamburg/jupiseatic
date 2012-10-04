@@ -43,17 +43,16 @@ nav ul {
 		}
 		&.menu-item-home a {
 			width: 42px;
-			text-indent: -9000px;
+			height: 50px;
+			font-size: 0;
 
 			&:before {
 				content: '\f015';
 				font: {
 					family: FontAwesome;
 				}
-				position: absolute;
-				left: 9010px;
-				top: 11px;
-				right: 0;
+				font-size: 25px;
+				margin-left: -2px;
 			}
 		}
 		&:last-child a {

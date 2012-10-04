@@ -19,6 +19,9 @@
 							$name = explode(" ", get_bloginfo('name'));
 							echo $name[0];
 							echo " <span id=\"highlight\">{$name[1]}</span> ";
+							if(count($name) > 2) {
+								echo implode(" ", array_slice($name, 2, count($name)-1));
+							}
 							bloginfo('description');
 						?>
 					</div>

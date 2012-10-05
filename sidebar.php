@@ -15,6 +15,5 @@
 		</aside>
 	</section>
 </div>
-<div class="clear"></div>
 
 <?php get_footer(); ?>

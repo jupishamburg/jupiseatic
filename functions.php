@@ -34,4 +34,8 @@
 	function new_excerpt_more($more) {
 		return ' <a href="'. get_permalink($post->ID) . '">[…]</a>';
 	}
+
+	// Post image
+	add_theme_support('post-thumbnails');
+	set_post_thumbnail_size(240, 180, true);
 ?>

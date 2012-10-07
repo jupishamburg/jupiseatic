@@ -1,6 +1,7 @@
 @mixin border-heading {
 	padding-left: 9px;
 	border-left: 6px #046D8B solid;
+	letter-spacing: .8px;
 }
 
 #page-wrapper {
@@ -63,6 +64,11 @@
 					left: 15px;
 				}
 			}
+		}
+		.post-thumbnail {
+			float: left;
+			margin-right: 15px;
+			margin-bottom: 10px;
 		}
 		.page-content p {
 			font-size: 14px;

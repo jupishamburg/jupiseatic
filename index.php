@@ -11,25 +11,30 @@
 				<div class="page-content">
 					<?php 
 						if(!is_single() && !is_page()) {
+							echo '<div class="post-thumbnail">';
+							the_post_thumbnail();
+							echo '</div>';
+
 							the_excerpt();
 						} else {
 							the_content();
 						}
 					?>
+					<div class="clear"></div>
 
 					<div class="left tags">
 						<?php
 							$categories = get_the_category();
 							if($categories){
 								foreach($categories as $category) {
-									echo '<a href="' . get_category_link($category->term_id) . '" class="btn btn-line" title="' . esc_attr(sprintf( __("View all posts in %s"), $category->name)) . '">' . $category->cat_name . '</a>';
+									echo '<a href="' . get_category_link($category->term_id) . '" class="btn btn-line btn-small" title="' . esc_attr(sprintf( __("View all posts in %s"), $category->name)) . '">' . $category->cat_name . '</a>';
 								}
 							}
 
 							$tags = get_the_tags();
 							if($tags) {
 								foreach($tags as $tag) {
-									echo '<a href="' . get_tag_link($tag->term_id) . '" class="btn btn-line" title="' . esc_attr(sprintf( __("View all posts tagged with %s"), $tag->name)) . '">' . $tag->name . '</a>';
+									echo '<a href="' . get_tag_link($tag->term_id) . '" class="btn btn-line btn-small" title="' . esc_attr(sprintf( __("View all posts tagged with %s"), $tag->name)) . '">' . $tag->name . '</a>';
 								}
 							}
 						?>

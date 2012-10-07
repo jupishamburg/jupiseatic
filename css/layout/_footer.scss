@@ -16,7 +16,6 @@ body > footer {
 		h4 {
 			color: #FF8800 !important;
 			font: {
-				/*weight: 300;*/
 				size: 23px;
 				family: 'Bebas Neue', sans-serif;
 				weight: normal;
@@ -42,20 +41,7 @@ body > footer {
 			}
 
 			li > a {
-				$color: #ddd;
-				display: inline-block;
-
-				color: #fff;
-				text-decoration: none;
-				background: #000;
-				font-size: 11px;
-				padding: {
-					top: 4px;
-					left: 5px;
-					right: 5px;
-				}
-				margin-right: 4px;
-				margin-bottom: 3px;
+				@include btn-small;
 			}
 		}
 	}

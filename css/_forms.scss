@@ -1,9 +1,9 @@
-@mixin btn {
+@mixin btn($fontsize: 14px) {
 	display: inline-block;
 	background: #000;
 	color: #fff !important;
 	text-decoration: none;
-	font-size: 14px !important;
+	font-size: $fontsize !important;
 	border: 0;
 
 	padding: {
@@ -20,6 +20,17 @@
 		color: $aactive !important;
 	}
 }
+@mixin btn-small {
+	@include btn(11px);
+	padding: {
+		top: 4px;
+		left: 5px;
+		right: 5px;
+		bottom: 1px;
+	}
+	margin-right: 4px;
+	margin-bottom: 3px;
+}
 
 .btn, input[type=submit] {
 	@include btn;
@@ -30,4 +41,8 @@
 }
 .btn-line {
 	margin-right: 5px;
+}
+
+.btn-small {
+	@include btn-small;
 }

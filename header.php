@@ -2,8 +2,9 @@
 <html <?php language_attributes(); ?>>
 	<head>
 		<title><?php wp_title('—', true, 'right'); bloginfo('name'); ?></title>
-		<link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/css/style.css" />
+		<link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/css/style.css?<?php echo time(); ?>" />
 		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width" /> 
 		<script type="text/javascript" src="<?php bloginfo('template_directory'); ?>/js/html5.js"></script>
 		<?php wp_head(); ?>
 	</head>

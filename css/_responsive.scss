@@ -1,0 +1,30 @@
+@media screen and (min-width: 1400px) {
+	.content {
+		width: 1100px !important;
+	}
+	#top-right input {
+		width: 320px !important;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	body > header {
+		.breakers {
+			display: none !important;
+		}
+		#top-right {
+			display: none !important;
+		}
+	}
+	nav li {
+		clear: both !important;
+	}
+	#sidebar-wrapper {
+		clear: both !important;
+		margin-left: 0 !important;
+	}
+	#page-wrapper {
+		width: auto !important;
+		clear: both !important;
+	}
+}
